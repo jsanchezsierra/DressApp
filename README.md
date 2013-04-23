@@ -15,7 +15,7 @@ A very Simple App for organizing your closet. Check your closet at anytime, anyw
 
 This source code is used in DressApp ( My Pocket Closet), which is available on the AppStore.
 
-*iTunes App Link:*   https://itunes.apple.com/en/app/mi-armario-bolsillo-dressapp/id500213071?mt=8
+**iTunes App Link:**   https://itunes.apple.com/en/app/mi-armario-bolsillo-dressapp/id500213071?mt=8
 
 ## Technical notes
 
@@ -29,6 +29,8 @@ This source code is used in DressApp ( My Pocket Closet), which is available on 
 * and many other interesting stuff.
 
 ## Screenshot
+
+![Screenshot](https://raw.github.com/osrufung/irregularverbs/master/screenshot1.png)
 
 ![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot1.jpg)
 ![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot2.jpg)
