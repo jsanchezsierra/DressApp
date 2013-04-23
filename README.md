@@ -13,8 +13,9 @@ A very Simple App for organizing your closet. Check your closet at anytime, anyw
 
 ## Source Code
 
-This source code is used in DressApp ( My Pocket Closet), which is available on the AppStore:
-**iTunes App Link**   https://itunes.apple.com/en/app/mi-armario-bolsillo-dressapp/id500213071?mt=8
+This source code is used in DressApp ( My Pocket Closet), which is available on the AppStore.
+
+*iTunes App Link:*   https://itunes.apple.com/en/app/mi-armario-bolsillo-dressapp/id500213071?mt=8
 
 ## Technical notes
 
