@@ -6,10 +6,10 @@ DressApp (Your pocket closet)
 
 A very Simple App for organizing your closet. Check your closet at anytime, anywhere.
 
--Use your camera to take pictures of your clothes and add them to the closet.
--Create you own outfits and share them with your friends.
--Add your outfits to the calendar, so you always know what you did wear that special day.
--Sort your looks by style, brand or season.
+* Use your camera to take pictures of your clothes and add them to the closet.
+* Create you own outfits and share them with your friends.
+* Add your outfits to the calendar, so you always know what you did wear that special day.
+* Sort your looks by style, brand or season.
 
 ## Source Code
 
@@ -18,24 +18,24 @@ This source code is used in DressApp ( My Pocket Closet), which is available on 
 
 ## Technical notes
 
--The App uses the Core Data Framework for storing and organizing the closet content (images and metadata)
--Check how to add an overlay view on your camera  (UIImagePickerController Class,cameraOverlayView method) and how to resize your pics. 
--The project includes the HorizontalTableView Class.  Thanks to Martin Volerich.   https://github.com/TheVole/HorizontalTable
--Learn how to use gestures to control the size and position of your garments in the outfit. No edit buttons needed!
--Check the StyleDressapp class. You can change your App style just with one tap ( Go to  Dress you App!  section and choose a new style)
--Custom calendar with gesture control for editing. Check CalendarViewController/CalendarMonthViewController classes. 
--The App is localized in Spanish and English
--and many other interesting stuff.
+* The App uses the Core Data Framework for storing and organizing the closet content (images and metadata)
+* Check how to add an overlay view on your camera  (UIImagePickerController Class,cameraOverlayView method) and how to resize your pics. 
+* The project includes the HorizontalTableView Class.  Thanks to Martin Volerich.   https://github.com/TheVole/HorizontalTable
+* Learn how to use gestures to control the size and position of your garments in the outfit. No edit buttons needed!
+* Check the StyleDressapp class. You can change your App style just with one tap ( Go to  Dress you App!  section and choose a new style)
+* Custom calendar with gesture control for editing. Check CalendarViewController/CalendarMonthViewController classes. 
+* The App is localized in Spanish and English
+* and many other interesting stuff.
 
 ## Screenshot
 
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshot1.png)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshot2.png)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshot3.png)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshot4.png)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshot5.png)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshot6.png)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshot7.png)
+![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot1.jpg)
+![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot2.jpg)
+![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot3.jpg)
+![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot4.jpg)
+![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot5.jpg)
+![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot6.jpg)
+![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot7.jpg)
 
 ## Release Notes
 
