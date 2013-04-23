@@ -30,15 +30,13 @@ This source code is used in DressApp ( My Pocket Closet), which is available on 
 
 ## Screenshot
 
-![Screenshot](https://raw.github.com/osrufung/irregularverbs/master/screenshot1.png)
-
 ![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot1.jpg)
-![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot2.jpg)
-![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot3.jpg)
-![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot4.jpg)
-![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot5.jpg)
-![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot6.jpg)
-![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot7.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot2.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot3.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot4.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot5.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot6.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot7.jpg)
 
 ## Release Notes
 
