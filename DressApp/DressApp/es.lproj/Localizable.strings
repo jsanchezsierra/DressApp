@@ -1,0 +1,809 @@
+
+
+//SPANISH
+
+/////////////////////////
+////  BASE DE DATOS   ///
+/////////////////////////
+
+"locale"="es_ES";
+
+
+//CATEGORÍAS
+"categoria0" = "Ninguna";
+"categoria1" = "Parte de arriba";
+"categoria2" = "Parte de abajo";
+"categoria3" = "Zapatos";
+"categoria4" = "Complementos";
+"DressApp"= "DressApp"; 
+
+//SUBCATEGORíAS
+"categoria1Count"="12";
+"categoria2Count"="7";
+"categoria3Count"="8";
+"categoria4Count"="16";
+
+"subCategoria1_0" = "Ninguna";
+"subCategoria1_1" = "Camisa";
+"subCategoria1_2" = "Americana";
+"subCategoria1_3" = "Camiseta";
+"subCategoria1_4" = "Polo";
+"subCategoria1_5" = "Blusa";
+"subCategoria1_6" = "Suéter";
+"subCategoria1_7" = "Vestido";
+"subCategoria1_8" = "Abrigo";
+"subCategoria1_9" = "Cazadora";
+"subCategoria1_10" = "Chaqueta";
+"subCategoria1_11" = "Ropa interior";
+
+"subCategoria2_0" = "Ninguna";
+"subCategoria2_1" = "Pantalón";
+"subCategoria2_2" = "Falda";
+"subCategoria2_3" = "Vaqueros";
+"subCategoria2_4" = "Pantalón corto";
+"subCategoria2_5" = "Jeans";
+"subCategoria2_6" = "Ropa interior";
+
+"subCategoria3_0" = "Ninguna";
+"subCategoria3_1" = "Tacones";
+"subCategoria3_2" = "Planos";
+"subCategoria3_3" = "Bota";
+"subCategoria3_4" = "Sandalias";
+"subCategoria3_5" = "Bailarinas";
+"subCategoria3_6" = "Zapatillas";
+"subCategoria3_7" = "Deportivas";
+
+"subCategoria4_0" = "Ninguna";
+"subCategoria4_1" = "Bolso";
+"subCategoria4_2" = "Bandolera";
+"subCategoria4_3" = "Bufanda";
+"subCategoria4_4" = "Cinturón";
+"subCategoria4_5" = "Sombrero";
+"subCategoria4_6" = "Calcetines";
+"subCategoria4_7" = "Medias";
+"subCategoria4_8" = "Gorro";
+"subCategoria4_9" = "Gafas de sol";
+"subCategoria4_10" = "Brazalete";
+"subCategoria4_11" = "Anillo";
+"subCategoria4_12" = "Collar";
+"subCategoria4_13" = "Reloj";
+"subCategoria4_14" = "Pendiente";
+"subCategoria4_15" = "Diadema";
+
+//MARCAS
+"marca0"="Otra";
+
+//COMPOSICION
+"composition1"="Otra";
+"composition2"="Poliéster";
+"composition3"="Acrílico";
+"composition4"="Algodón-Poliéster";
+"composition5"="Algodón-Lino";
+"composition6"="Algodón-Acrílico";
+"composition7"="Lana";
+"composition8"="Seda";
+"composition9"="Algodón";
+"composition10"="Sintético";
+"composition11"="Lino";
+
+//TIENDAS
+"TiendaNinguna"="Ninguna";
+"Tienda1"="El Corte Inglés";
+"Tienda2"="Calzados Perico";
+"Tienda3"="Boutique Lola";
+
+//TEMPORADA
+"primavera"="Primavera";
+"verano"="Verano";
+"otono"="Otoño";
+"invierno"="Invierno";
+"primaveraShort"="Prim.";
+"veranoShort"="Ver.";
+"otonoShort"="Oto.";
+"inviernoShort"="Inv.";
+"ninguna"="ninguna";
+
+//Disponibilidad
+"disponible"="Disponible";
+"prestada"="Prestada";
+"deseo"="Deseo";
+"lavanderia"="Lavandería";
+"ninguno"="ninguno";
+
+//Categorías Conjuntos
+"ConjuntoCategoria_0"="Casual";
+"ConjuntoCategoria_1"="Trabajo";
+"ConjuntoCategoria_2"="Fiesta";
+"ConjuntoCategoria_3"="Sport";
+"ConjuntoCategoria_4"="Otros";
+
+/////////////////////////
+//// MENU PRINCIPAL   ///
+/////////////////////////
+
+//MENU PRINCIPAL 
+"Prendas" = "Prendas";
+"Calendario" =  "Calendario";
+"Perfil" = "Perfil";
+"MisMarcas" = "Mis Marcas";
+"OK"="OK";
+
+
+//VISTA PRENDAS PRINCIPAL- VISTA AYUDA -HelpViewController
+"Ayuda"="Ayuda";
+"EditPrendas"="Multiedición";
+"Volver"="Volver";
+"helpMenuItem1"="Sección prendas";
+"helpMenuItem2"="Sección conjuntos";
+"helpMenuItem3"="Calendario";
+"helpMenuItem4"="Menú";
+"helpMenuItem5"="Multiedición";
+"helpMenuItem6"="Añadir prenda";
+
+//"helpText1" = "<p>A través del icono percha puedes ver tu armario con todas tus prendas clasificadas.</p> <p>Podrás añadir nuevas prendas a DressApp mediante la cámara de fotos.</p> <p>Seleccionando cualquier prenda de tu armario accederás a los detalles de la misma: marca, talla, precio, temporada, etc. También te permite añadir la prenda a una categoría determinada, crear notas y compartirla a través de tus redes sociales así como guardarla en tu álbum de fotos.</p>";
+
+
+"helpText1" = "A través del icono percha puedes ver tu armario con todas tus prendas clasificadas. \n\nPodrás añadir nuevas prendas a DressApp mediante la cámara de fotos. \n\nSeleccionando cualquier prenda de tu armario accederás a los detalles de la misma: marca, talla, precio, temporada, etc. \n\nTambién te permite añadir la prenda a una categoría determinada, crear notas y compartirla a través de tus redes sociales así como guardarla en tu álbum de fotos.";
+
+/*
+ "helpText1"= "&amp;iquest;Qu&amp;eacute; es lo peor que le puede pasar a un enano?&lt;br /&gt; Que un polic&amp;iacute;a le diga ALTO.";
+ */
+
+"helpText2"="Esta sección te permite experimentar y combinar tus prendas para crear tus propios conjuntos de la manera más sencilla.\n\nHaciendo click en el icono + puedes añadir las prendas que configurarán tu conjunto. Con el icono X podrás eliminarla.\n\nPuedes seleccionarlas, arrastrarlas y cambiar su tamaño a través de la flecha que aparecerá en la esquina inferior derecha.\n\nPuedes categorizar tus conjuntos según su estilo, bien sean casual, de trabajo o para una fiesta. También te permite crear notas y  compartirlo a través de tus redes sociales o guardarlos en tu álbum de fotos. ";
+"helpText3"="Para recordar los conjuntos que has usado o los que vas a usar, nada mejor que tenerlo anotado en un calendario.\n\nAquí puedes seleccionar la fecha y asignar un conjunto para cada ocasión. También puedes añadir notas y tenerlo todo controlado. ";
+"helpText4"="Seleccionando el botón de menú accederás a las diferentes secciones de DressApp. Será un punto de partida y de acceso para las acciones que desees realizar.\n\nTambién te mostramos el total de prendas de en tu armario y el número de conjuntos que has creado. ";
+"helpText5"="La opción de multiedición te permite seleccionar todas las prendas que quieras haciendo click en cada una de ellas.\n\nPuedes confirmar con el botón OK para pasar a la pantalla de detalle de prenda y cambiar los atributos\n\nTambién puedes usar la multiedición para seleccionar un grupo de prendas que desees eliminar tu armario.";
+"helpText6"="En tu armario encontrarás en cada categoría el icono de la cámara para fotografiar las prendas y clasificarlas de forma automática en cada sección.\n\nTambién puedes importar imágenes del álbum de fotos de tu iPhone y añadirlas a tu armario. ";
+
+
+
+
+//PREVIEW CAMERA
+"PhotoLibrary"="Imágenes";
+"RepeatPicture"="Repetir";
+"UsePicture"="Usar";
+"ResizePicture"="Mover y escalar";
+
+
+
+/////////////////////////
+////// PRENDAS   ////////
+/////////////////////////
+
+//VISTA DETALLE PRENDA - PrendaDetailViewController
+"MultiplesPrendas"="Multiples prendas";
+"SI"="Si";
+"NO"="No";
+"Prenda" = "Prenda";
+"NoDisponible"="No disponible";
+"btnCompartirTitle"="Compartir";
+"Temporada"="Temporada";
+"myPrenda"="Mi prenda";
+"myEtiqueta"=" Etiqueta";
+"NoCategory"="Selecciona categoría";
+"categoriaActionTitle"="Selecciona categoría";
+"CategoryNotValid"="Categorías diferentes";
+"disponibilidadActionTitle"= "Selecciona disponibilidad de la prenda";
+"btnDisponibilidadDisponible"="Disponible";
+"btnDisponibilidadDeseo"="Deseo";
+"btnDisponibilidadColada"="Colada";
+"btnDisponibilidadPrestada"="Prestada";
+"btnDisponibilidad"="No asignado";
+"MoveItemToTrashTitle"="Confirmar borrado"; 
+"MoveItemToTrashMsg"="¿Estás seguro de que deseas borrar esta prenda?";
+"MoveItemToTrashMsgWithWarning"="Esta prenda está asociada a un conjunto ¿Estás seguro de que deseas borrarla?";
+"MoveItemsToTrashMsg"="¿Estás seguro de que deseas borrar todas estas prenda?";
+"MoveItemsToTrashMsgWithWarning"="Alguna de estas prendas está asociada a un conjunto ¿Estás seguro de que deseas borrarlas?";
+
+
+//VISTA DETALLE PRENDA- MI PRENDA
+"NotesNotas"="Notas";
+"NullNotas"="No coincide";
+"EstadoTitle"="Estado";
+
+//VISTA DETALLE PRENDA- LA ETIQUETA
+"EtiquetaMarca"="Marca";
+"EtiquetaTienda"="Tienda";
+"EtiquetaTalla"="Talla";
+"EtiquetaPrecio"="Precio";
+"EtiquetaColor"="Color";
+"EtiquetaComposicion"="Comp.";
+"NullMarca"="Marcas diferentes";
+"NullTalla"="No coincide";
+"NullPrecio"="---";
+"NullColor"="No coincide";
+"NullComposicion"="No coincide";
+
+
+//VISTA DETALLE PRENDA- VISTA TALLA -PrendaDetails Tallas
+"TallaTitleHeader"="Talla";
+"btnResetTitle"="Reset";
+"helpTallaText"="Combina los valores de las tres columnas hasta componer tu talla. (Ej: XL, 36, 80C...)";
+"SinTalla"= "Sin talla";
+
+//VISTA DETALLE PRENDA- VISTA MARCAS -Fecha
+"FechaTitleHeader"="Fecha";
+
+//VISTA DETALLE PRENDA- VISTA MARCAS -PrendasCategorías y ConjuntosCategorías
+"CategoriasTitleHeader"="Categorías";
+
+//VISTA DETALLE PRENDA- VISTA COMPOSICIÓN -PrendasComposicionViewController
+"ComposicionTitleHeader"="Composición";
+
+//VISTA DETALLE PRENDA- VISTA MARCAS -PrendasMarcasVC
+"MarcasTitleHeader"="Marcas";
+"MisMarcasTitleHeader"="Mis Marcas";
+"addMarca"="Añade Marcas";
+"addMarcaHelp"="Añade marcas a 'Mis Marcas'";
+
+//VISTA DETALLE PRENDA - VISTA TIENDAS -PrendaTiendasViewController
+"Tiendas"="Tiendas";
+
+//VISTA DETALLE PRENDA- VISTA PRECIO -PrendasPrecioViewController"";
+"PrecioTitleHeader"="Precio";
+
+
+/////////////////////////
+////// CONJUNTOS  ///////
+/////////////////////////
+
+//CONJUNTOS - VISTA PRINCIPAL
+"Conjunto"="Conjunto";
+"Conjuntos"="Conjuntos";
+"helpAddingConjunto"="Añade un conjunto a tu armario";
+"addPrendas"="Añade Prendas";
+
+//CONJUNTOS - VISTA DE DETALLE
+"actionViewConjuntoTitle"= "Elige opción para compartir";
+"saveToAlbum"= "Guardar en álbum";
+"facebook"= "Facebook";
+"twitter"= "Twitter";
+"email"= "Email";
+"cancelar"= "Cancelar";
+"MoveConjuntoToTrashMsg"="¿Estás seguro de que deseas borrar este conjunto?";
+"MoveConjuntoToTrashEmptyMsg"="El conjunto est vacío, ¿deseas borrarlo?";
+"MoveConjuntoPrendaToTrashTitle"="Confirmar borrado"; 
+"MoveConjuntoPrendaToTrashMsg"="¿Estás seguro de que deseas borrar esta prenda del conjunto?";
+"MoveEmptyConjuntoToTrashTitle"="Confirmar borrado"; 
+"MoveEmptyConjuntoToTrashMsg"="El conjunto no tiene prendas. ¿Deseas borrarlo?";
+"ConjuntoCategoria"="Categoría";
+"ConjuntoNotas"="Notas";
+"ConjuntoCompartir"="Compartir";
+
+//CONJUNTOS - VISTA DE DETALLE - VISTA NOTAS
+"NotasTitle"="Notas";
+"FechasTitle"="Fechas de uso:";
+
+
+
+/////////////////////////
+////// CALENDAR   ///////
+/////////////////////////
+
+
+//CALENDAR DETAILS VIEW
+"Hoy"="Hoy";
+"MoveCalendarItemToTrashTitle"="Confirmar borrado"; 
+"MoveCalendarItemToTrashMsg"="¿Estás seguro de que deseas borrar este conjunto del calendario?";
+"AddConjunto"="Añade conjunto";
+
+
+"CalendarEmptyConjuntosTitle"="No tienes conjuntos creados"; 
+"CalendarEmptyConjuntosMsg"="Para poder asociar un conjunto a una fecha del calendario tienes que crear conjuntos de antemano.";
+
+"introNote"="Introduce una nota";
+
+/////////////////////////
+//////   PERFIL   ///////
+/////////////////////////
+"btnLoginTitle"="Entrar";
+"btnRegistrarTitle"="Registrar";
+"btnRegisterConfimation"="Entrar";
+
+"Name"="Nombre";
+"Email"="Email";
+"IntroEmail"="Introduce tu Email";
+"Password"="Contraseña";
+
+"IntroduceEmail"="Introduce tu Email";
+"IntroducePassword"="Introduce tu contraseña";
+
+"wrongLoginDataTitle"="Error al entrar";
+"wrongLoginDataMsg"="Debes completar todos los campos";
+"Registrate"="Regístrate";
+"Conectate"="Conéctate";
+"Entra"="Entrar";
+"RegistrateCon"="Regístrate con";
+"ConectateCon"="Conéctate con Facebook";
+"EntraConFacebook"="Entrar con Facebook";
+"btnRegisterBenefits"="¿Por qué registrarse?";
+
+"LoginErrorTitle"="Error al entrar";
+"LoginErrorMsg"="El email y/o la contraseña no son válidos";
+
+
+"LoginFacebookErrorTitle"="Facebook connect";
+"LoginFacebookErrorMsg"="Ha habido un error al intentar conectar con Facebook, prueba de nuevo más tarde.";
+
+
+"passwordHasWhiteSpacesTitle"="Contraseña errónea";
+"passwordHasWhiteSpacesMsg"="La contraseña tiene que tener al menos 4 caracteres y no contener espacios en blanco.";
+
+
+//GENERAL-NAVEGACION
+"atras"="Atrás";
+"btnOK"="OK";
+"btnCancel"="Cancelar";
+"btnCancelShort"="Canc.";
+
+
+
+//////   REGISTRATION   ///////
+
+"wrongRegisterDataTitle"="Registro Erróneo";
+"wrongRegisterDataMsg"="Introduce tu email para realizar el registro.";
+"wrongRegisterEmailTitle"="Email Erróneo";
+"wrongRegisterEmailMsg"="El email introducido no es válido.";
+
+"RegistrationOKTitle"="¡Bienvenido a DresApp!";
+"RegistrationOKMsg"="El registro se ha realizado con éxito. En breve recibirás un email para activar tu cuenta en DressApp.";
+
+"wrongRegisterEmailExistTitle"="Registro en Dresapp";
+"wrongRegisterEmailExistMsg"="Ha habido un problema al registrarse en DressApp.";
+"FacebookConnectAlreadyConnectedTitle"="Registro por Facebook";
+"FacebookConnectAlreadyConnectedMsg"="El registro en DressApp a través de Facebook ya ha sido realizado anteriormente.";
+
+"RegistroConfirmationTitle"="¡Gracias por unirte a DressApp!";
+"RegistroBenefitsTitle"="¿Por qué registrarse?";
+
+//<a href=\"http://www.dressapp.es\" target=\"_blank\">www.dressapp.es</a>
+
+
+"RegistroConfirmationTextWebView" = " <p style=\"font-size:small;\">¡Tu cuenta ya está asociada a DressApp!</p>  <p style=\"font-size:small;\">Ésto te permite nuevas ventajas:</p>  <p style=\"font-size:small;\">- Acceder a la web www.dressapp.es y visualizar todas tus prendas, conjuntos,...<BR>-Descargar todo tu armario a otros dispositivos iPhone<BR>-Y otras ventajas que vamos a ir añadiendo</p> <p style=\"font-size:small;\">¡Happy DressApp!</p>";
+
+"RegistroBenefitsTextWebView" = "<p>Las usuarias pueden empezar a utilizar la app una vez descargada de manera gratuita sin registrarse, sin embargo el registro les permitirá poner su armario en la nube permitiéndoles consultar su armario desde cualquier dispositivo o ordenador. Además como usuaria registrada podrán conocer su estilo, recibir tendencias y looks recomendados con sus propias prendas.</p> <p>Otra de las ventajas es la protección: en caso de pérdida o robo de su móvil todo su armario queda guardado en la nube pudiéndolo recuperar de una manera sencilla y segura.</p>";
+
+"RestorePassWord"="Recuperar contraseña";
+"RestorePassWordTitle"="Recuperar contraseña";
+"RestorePassWordMsg1"="Te hemos enviado un email a";
+"RestorePassWordMsg2"="con tu contraseña.";
+"RestorePassWordErrorMsg"="Se ha producido un error y no ha sido posible enviarte la contraseña a la cuenta de correo especificada.";
+
+/// FACEBOOK CONNECT  ////
+
+"FacebookPostName"="Estoy usando DressApp para iPhone";
+"FacebookPostCaption"="DressApp";
+"FacebookPostDescription1"="Prueba DressApp para iPhone y descubre una nueva manera de gestionar tu armario.";
+
+"FacebookPostDescriptionPrenda"="Mira que prenda más chula tengo en mi Armario de #DressApp.";
+"FacebookPostDescriptionConjunto"="Mira que Look más chulo tengo en mi Armario de #DressApp.";
+
+"FacebookConnectPostImagePrendaOKTittle"="Compartir en Facebook";
+"FacebookConnectPostImagePrendaOKMsg"="La imagen de la prenda ha sido compartida correctamente en tu muro de Facebook";
+
+"FacebookConnectPostImagePrendaFailedTittle"="Compartir en Facebook";
+"FacebookConnectPostImagePrendaFailedMsg"="Ha habido un error al intentar compartir la prenda en tu muro de Facebook";
+
+
+"FacebookConnectPostImageConjuntoOKTittle"="Compartir en Facebook";
+"FacebookConnectPostImageConjuntoOKMsg"="La imagen del conjunto ha sido compartida correctamente en tu muro de Facebook";
+
+"FacebookConnectPostImageConjuntoFailedTittle"="Compartir en Facebook";
+"FacebookConnectPostImageConjuntoFailedMsg"="Ha habido un error al intentar compartir el conjunto en tu muro de Facebook";
+
+"FacebookConnectPostStyleOKTittle"="Compartir en Facebook";
+"FacebookConnectPostStyleOKMsg"="Tu estilo ha sido compartido correctamente en tu muro de Facebook";
+
+"FacebookConnectPostStyleFailedTittle"="Compartir en Facebook";
+"FacebookConnectPostStyleFailedMsg"="Ha habido un error al intentar compartir tu estilo en tu muro de Facebook";
+
+
+"FacebookConnectPostFashionVictimOKTittle"="Compartir en Facebook";
+"FacebookConnectPostFashionVictimOKMsg"="El resultado de si eres una fashion victim ha sido compartido correctamente en tu muro de Facebook";
+
+"FacebookConnectPostFashionVictimFailedTittle"="Compartir en Facebook";
+"FacebookConnectPostFashionVictimFailedMsg"="No ha sido posible compartir en tu muro de Facebook el resultado de si eres una fashion victim ";
+
+
+
+"FacebookConnectPostOKTittle"="Compartir en Facebook";
+"FacebookConnectPostOKMsg"="Tu post ha sido compartido en tu muro de Facebook";
+
+"emailNotExistTitle"="No es posible enviar Email";
+"emailNotExistMsg"="Para poder enviar un email tienes que tener una cuenta configurada en el dispositivo.";
+
+"SendPrendaToEmailOKTittle"="DressApp  Email";
+"SendPrendaToEmailOKMsg"="El Email con la imagen de la prenda ha sido enviado correctamente.";
+
+"SavePrendaToLibraryOKTittle"="Guardar en álbum";
+"SavePrendaToLibraryOKMsg"="La imagen de la prenda ha sido guardada correctamente en el álbum";
+
+"emailBodyPrenda1"="<p>Hola,</p> <p>Mira que prenda más chula tengo en mi Armario de #DressApp. </p> <p>Descárgate la app tú también y comparte conmigo tu ropa y looks.</p> ";
+"emailBodyPrenda2"=" Link a DressApp en AppStore";
+"emailBodyPrenda3"=" Link a DressApp en Google Play";
+
+"emailBodyConjunto1"="<p>Hola,</p> ";
+"emailBodyConjunto2"="Mira que Look más chic tengo en mi Armario de #DressApp.";
+"emailBodyConjunto3a"="Conjunto de:";
+"emailBodyConjunto3b"="Conjunto de:";
+"emailBodyConjunto4"="<p>Descárgate la app tú también y comparte conmigo tu ropa y looks.</p> ";
+"emailBodyConjunto5"=" Link a DressApp en AppStore";
+"emailBodyConjunto6"=" Link a DressApp en Google Play";
+
+"TwitterMsg"="¡Descubre DressApp, una nueva manera de organizar tu armario! http://bit.ly/yUWHhn Regístrate en www.dressApp.es";
+"TwitterMsgPrenda"="Mira que prenda más chula tengo en mi Armario de #DressApp. http://www.dressApp.es";
+"TwitterMsgConjunto"="Mira queé conjunto más chulo tengo en mi Armario de #DressApp. http://www.dressApp.es";
+
+//BACKUPS
+
+"BackupPrendaLabel"="Guardar mi armario";
+"RestorePrendaLabel"="Recuperar mi armario";
+
+"BackupPrenda"="Guardando prenda";
+"BackupPrendaTerminado"="Todas las prendas han sido guardadas";
+"RemovingPrendas"="Borrando prendas.";
+
+"BackupConjunto"="Guardando conjunto";
+"BackupConjuntoTerminado"="Todos los conjuntos han sido guardados";
+"RemovingConjuntos"="Borrando conjuntos.";
+
+"RemovingCalendar"="Borrando nota del calendario";
+
+
+//"BackupNotNeeded"="Tu armario ya está guardado";
+"BackupNotNeeded"="Armario guardado";
+"RestoreNotNeeded"="Armario recuperado";
+"BackupEnded"="Backup finalizado";
+
+"Guardando"="Guardando";
+"de"="de";
+
+"Conectando"="Conectando...";
+"Recuperando"="Recuperando";
+
+"SaveProfile"="Guardar perfil";
+
+
+"CloseSession"="Cerrar sesión";
+"Cancelar"="Cancelar";
+
+"profileModifiedOKTitle"="";
+"profileModifiedOKMsg"="Perfil guardado correctamente";
+
+"hombre"="H";
+"mujer"="M";
+
+"NombrePlaceholder"="Nombre";
+"ApellidosPlaceholder"="Apellidos";
+"EmailPlaceholder"="Email";
+"FechaPlaceholder"="Fecha de nacimiento";
+"PostalCode"="Código postal";
+
+"BackUpErrorTitle"="Error al guardar el armario";
+"BackUpErrorMsg"="Se ha producido un error al intentar guardar las prendas y conjuntos a tu armario.";
+
+"RestoreErrorTitle"="Error al recuperar el armario";
+"RestoreErrorMsg"="Se ha producido un error al intentar recuperar las prendas y conjuntos de tu armario.";
+
+"ConnectionErrorTitle"="Error de conexión";
+"ConnectionErrorMsg"="Ha habido un error de conexión con la nube, inténtelo de nuevo más tarde.";
+
+"fillingFormError" = "Debes completar todos los campos";
+"birthDateFillingFormError" = "La edad mínima de registro es de 14 años";
+
+
+"restoreStartTitle"="Recuperar armario";
+"restoreStartMsg"="¿Quieres recuperar el armario guardado en la nube?";
+
+"backupStartTitle"="Guardar armario";
+"backupStartTitleForced"="Bienvenido a DressApp";
+//"backupStartMsg"="¿Quieres guardar tu armario en la nube? ";
+"backupStartMsg"="Se reemplazará el contenido que tengas guardado en la nube por el contenido actual de tu dispositivo. ¿Quieres continuar?";
+
+"backupStartMsgForced"="Tus nuevas prendas y conjuntos se guardarán en la nube.";
+"backupStartMsgNotNeeded"="Todas tus prendas y conjuntos están guardados ya en la nube.";
+
+
+"logoffTitle"="Cerrar sesión";
+"logoffMsg"="Recuerda que para volver a entrar a tu armario deberás conectarte con tu mail y contraseña.";
+
+"noInternetTitle"="No hay conexión a Internet";
+"noInternetMsg"="Habilita la conexión a Internet y vuelve a intentarlo";
+
+"3GConnectionTitle"="Aviso";
+"3GConnectionMsg"="El tamaño de tu armario excede los 20Mb. Te recomendamos conectarte a una red wifi para guardar o recuperar tu armario.";
+
+"convertClosetFromDefaultUserTitle"="Bienvenida/o a DressApp";
+"convertClosetFromDefaultUserMsg1"="Si continuas, todas las prendas y conjuntos que tienes en tu dispositivo se asociaran a ";
+"convertClosetFromDefaultUserMsg2"=" ¿Estás seguro que deseas continuar?";
+
+
+ 
+
+//Loading 
+"loading"="cargando";
+
+
+"convertDataBaseTitle"="Reparando Base de Datos";
+"convertDataBaseMsg"="¿Desea reparar la base de datos para recuperar todas las prendas y conjuntos almacenados en su dispositivo?";
+
+
+"convertDataBaseFinishedTitle"="";
+"convertDataBaseFinishedMsg"="Reparación finalizada";
+
+
+
+
+////////////
+
+
+"logoffConfirmationTitle"="Cerrar sesión";
+"logoffConfirmationMsg"="¿Estás seguro de que deseas cerrar la sesión?";
+
+"apariencia"="¡Viste tu aplicación!";
+"SelectStyle"="¡Viste tu Applicación!";
+
+"MiArmario"="Mi Armario";
+"MiPerfil"="Mi Perfil";
+"Ajustes"="Ajustes";
+
+"estadisticas"="Explora tu armario";
+"tuEstilo"="Conoce tu estilo";
+"tuEstiloShort"="Conoce tu estilo";
+"ConoceTuEstilo"="¿Cuál es mi estilo?";
+"ConoceFashionVictim"="¿Soy una fashion victim?";
+
+"minimunMarcasForCalculatingStyleTitle"="No tenemos suficientes datos";
+"minimunMarcasForCalculatingStyleMsg1"="No podemos calcular tu estilo porque no has rellenado la información de la etiqueta de las prendas que tienes en DressApp. Solo tienes un";
+"minimunMarcasForCalculatingStyleMsg2"="de etiquetas rellenadas. Rellena la marca de prendas y te diremos que estilo tienes. ¡Solo te llevará 5 minutos!";
+"minimunMarcasForCalculatingStyleMsg3"="Podrás saber si eres: Casual, Clasica, Fashion, Hippie, Vanguardista o Romántica.";
+
+"estiloTitulo01"="La chica Casual – Atlética";
+"estiloMsgIni01"="Lo importante para ti es sentirte cómoda con la ropa y que sea útil, pero eso no te aleja de la moda. Tu ropa resalta tu figura atlética y eso te da un carácter sexy. Proyectas un estilo propio y mucha seguridad contigo misma. Tu maquillaje es sencillo y resistente para que no te estorbe en tu ritmo de vida. El look casual consiste en mantener la simplicidad con un cuidado desorden.";
+"estiloMsgEnd01"="¿Celebridades casuales? Rachel Bilson, Kristen Stewart, Sandra Bullock y Maria Sharapova.";
+
+
+"estiloTitulo02"="El estilo clásico ";
+"estiloMsgIni02"="La elegancia y sofisticación son tus premisas. Tienes un estilo limpio, sobrio, refinado y pulcro. El glamour es parte de tu sello de identidad pero tu buen gusto no depende de las modas, tienes un estilo propio que permanece inalterable en el tiempo. Adaptas tus conjuntos a las circunstancias, para llevar siempre la ropa y complementos apropiados. Evitas los extremos y tus accesorios son discretos.";
+"estiloMsgEnd02"="Algunas mujeres clásicas son: Jennifer Aniston, Katherine Heigl, Gwyneth Paltrow y Grace Kelly";
+
+"estiloTitulo03"="Fashion - Siempre a la moda ";
+"estiloMsgIni03"="Sigues las tendencias y siempre estás a la última: la moda es lo tuyo. Te gusta estar al día de los nuevos estilos, no temes los cambios y eres la primera de tus amigas en probar un nuevo look. Te encanta que te miren y te pregunten donde has comprado la ropa. Tu estilo refleja lo bien informada que estás sobre el mundo de la moda y sus novedades. Siempre estas perfecta con un look que es un referente de las tendencias del momento.";
+"estiloMsgEnd03"="Algunas mujeres fashion son: Sarah Jessica Parker, Madonna,  Victoria Beckham ";
+
+"estiloTitulo04"="Hippie y natural";
+"estiloMsgIni04"="Para ti es importante que tu ropa refleje tus principios y manera de vivir. La ropa no es el asunto más importante, te gusta usar ropa de tejidos naturales que acompañen tu belleza natural, sin que sea demasiado llamativa o vanguardista. Usas poco maquillaje y complementos simples de materiales naturales. Estableces una relación sentimental con tu ropa por eso te cuesta mucho deshacerte de ella y siempre que lo haces la llevas a alguna organización de recogida de ropa.";
+"estiloMsgEnd04"="Algunas famosas de look natural: Meg Ryan y Helen Hunt";
+
+"estiloTitulo05"="Romántica por excelencia";
+"estiloMsgIni05"="Te encanta el estilo vintage y por eso estás enamorada del diseño de nuestra App. La ropa te trasmite su espíritu, por eso te encanta la ropa de segunda mano. Tu estilo es muy femenino, dulce y sensual. Al comprar te dejas llevar por tu corazón y no por tu cabeza,  te gusta que la gente te identifique con esa imagen dulce y romántica. Eres muy fiel a tu estilo y a tus marcas.";
+"estiloMsgEnd05"="Celebridades con las que te identificas: Winona Ryder y Diane Keaton.";
+
+"estiloTitulo06"="Vanguardista";
+"estiloMsgIni06"="Te gusta que tu ropa sea diferente, que no sea lo que lleva todo el mundo. Prefieres la ropa de diseñadores poco conocidos, callejear por  el centro de las ciudades hasta encontrar una tienda escondida con ropa que no puedes encontrar en las tiendas de las marcas más conocidas. Expresas tus ideas de inconformismo con tu look, fuera de lo convencional o de las tendencias masivas. Quieres que la gente sepa que eres diferente y creativa.";
+"estiloMsgEnd06"="Mujeres vanguardistas: Gwen Stefani y L’il Kim.";
+
+
+"emailEstiloSubject"="Mira lo que piensa DressApp de mi estilo:";
+"emailEstiloParagraph1"="<p>Hola,</p> <p>Esto es lo que piensa #DressApp de mi estilo. </p> ";
+"SendEstiloEmailOKTittle"="DressApp  Email";
+"SendEstiloEmailOKMsg"="El Email con tu estilo se ha sido enviado correctamente.";
+
+
+"fashionVictimYESTitle" = "¡Si! ¡Eres una fashion victim!";
+"fashionVictimYES" = "Eres una fashionista. Te gusta gastar en moda compulsivamente y no dejas que nadie se entrometa en tu relación con la moda. Te encanta ver Sex & the City y en cuanto puedes viajas a Nueva York para recorrer las tiendas que aparecen en la serie. No saldrías jamás con un chico sin estilo… si no lo tiene tú te encargas que lo tenga. Tu día ideal: ir de shopping y quemar la visa.";
+
+"fashionVictimPRACTICALTitle"="Eres práctica";
+"fashionVictimPRACTICAL"="Te gusta la moda pero antes de comprarte algo te lo miras mil veces, no te gusta tirar el dinero en algo que no estás segura que te vas a poner. Eres práctica con la ropa que tienes y te gusta combinártela para crear nuevos looks sin tener que estar constantemente comprando. Tu presupuesto en moda es limitado y aunque de vez en cuando te das un gusto no gastas mucho dinero. En la tele echas de menos Lo que necesitas es amor. Ojalá volviera!!! ";
+
+"fashionVictimNOTitle"="No eres una fashion Victim";
+"fashionVictimNO"="No eres una fashion victim, no te interesa la moda o por lo menos no lo demuestras. Estás contenta contigo misma y no te importa lo que lleves. Te gustan las personas por su personalidad no por su físico. La idea de ir de compras te aburre y si puedes comprar por internet y evitar ir de tiendas lo haces. Y una última cosa! Te encantan los documentales.";
+
+"fashionVictimNODATATitle"="No hay información suficiente";
+"fashionVictimNODATA"="No podemos calcular tu estilo porque tienes muy pocas prendas y conjuntos en Dressapp y/o no has rellenado la información del precio de las prendas en las etiquetas. Añade prendas y conjuntos sin olvidar el precio de cada prenda y te diremos si eres una fashion victim.";
+
+
+"emailFashionSubject"="¿Eres una Fashion Victim? Pregunta a DressApp";
+"emailFashionParagraph1"="<p>Hola,</p> <p>¿Eres una Fashion Victim? Esto es lo que piensa #DressApp: </p> ";
+"SendFashionEmailOKTittle"="DressApp  Email";
+"SendFashionEmailOKMsg"="El Email se ha sido enviado correctamente.";
+
+
+"emailBlockedTitle"="Acceso denegado";
+"emailBlockedMsg1"="La cuenta asociada al email";
+"emailBlockedMsg2"="está bloqueada. Puedes enviar un email a contacto@dressapp.es para desbloquearla.";
+
+"twitterYourStyleTitle1"="Esto es lo que piensa DressApp de mi estilo: ";
+"twitterYourStyleTitle2"=". http://bit.ly/yUWHhn";
+
+"twitterYourStyle1"="Soy casual-atlética";
+"twitterYourStyle2"="Soy clásica";
+"twitterYourStyle3"="Soy fashion - siempre a la moda";
+"twitterYourStyle4"="Soy hippie y natural";
+"twitterYourStyle5"="Soy romántica por excelencia";
+"twitterYourStyle6"="Soy vanguardista";
+
+
+"twitterFashionVictimTitle1"="¿Eres una Fashion Victim? Pregunta a #DressApp. ";
+"twitterFashionVictimTitle2"=" http://bit.ly/yUWHhn";
+
+"twitterFashionVictimResult1"="¡Yo soy una fashion victim!";
+"twitterFashionVictimResult2"="Yo noy soy una fashion victim.";
+"twitterFashionVictimResult3"="Yo soy práctica.";
+
+
+"Vintage"="Vintage";
+"Elegant"="Elegant";
+"Modern"="Modern";
+"Urban"="Urban";
+
+"styleTitle1"="Estilo Vintage";
+"styleContent1"="Dentro de poco podrás personalizar tu armario de bolsillo con el estilo vintage.";
+"stylePrice1"=" ¡Será tuyo por solo 0.79€!";
+
+
+"styleTitle2"="Estilo Elegante";
+"styleContent2"="Dentro de poco podrás personalizar tu armario de bolsillo con el estilo elegante.";
+"stylePrice2"=" ¡Será tuyo por solo 0.79€!";
+
+"styleTitle3"="Estilo Moderno";
+"styleContent3"="Dentro de poco podrás personalizar tu armario de bolsillo con el estilo moderno.";
+"stylePrice3"=" ¡Será tuyo por solo 0.79€!";
+
+
+"styleTitle4"="Estilo Urbano";
+"styleContent4"="Dentro de poco podrás personalizar tu armario de bolsillo con el estilo urbano.";
+"stylePrice4"=" ¡Será tuyo por solo 0.79€!";
+
+"btnDownload"="Descargar";
+"btnCancel"="Cancelar";
+
+
+"warningDownloadingStyleWith3GTitle"="Conexión a internet";
+"warningDownloadingStyleWith3GMsg"="Estás conectado a Internet a través de 3G. Te recomendamos conectarte a una red wifi para bajar el estilo. ¿Deseas continuar con 3G?";
+
+
+"purchaseDisabledTitle"="Compra deshabilitada";
+"purchaseDisabledMsg"="No es posible continuar con la compra ya que su dispositivo no admite compras. Puede cambiar está configuración en el menú ajustes de su dispositivo.";
+
+"invalidProductTitle"="Estilo no encontrado";
+"invalidProductMsg"="El estilo seleccionado no ha podido encontrarse en el AppStore, pruebe de nuevo más tarde";
+
+"helpMenuItem7"="Mi perfil";
+"helpMenuItem8"="Mis marcas";
+"helpMenuItem9"="Conoce tu estilo";
+"helpMenuItem10"="Viste tu aplicación";
+
+"helpText7"="Puedes asociar tu 'DressApp, tu armario de bolsillo' a una cuenta de e-mail. De esta manera tienes acceso a la web www.dressapp.es y visualizar tu perfil desde cualquier lugar o descargar todo tu armario en otros dispositivos como iPhone, iPod o iPad.";
+
+"helpText8"="Hemos creado este apartado para que puedas realizar una selección de tus marcas preferidas.\n\nPuedes añadir tus marcas de forma sencilla. Haz click en el botón + y accede a la lista. Te proponemos más de 100 marcas para que elijas tus favoritas. ¡Añade tantas como quieras!";
+
+"helpText9"="Ahora tus prendas hablan de ti en DressApp. Podrás saber tu estilo y comprobar si eres o no una fashion victim. Haz click en los dos iconos y obtén información acerca de tu estilo a través de las prendas añadidas.\n\nGracias a la información que rellenes en la etiqueta de tus prendas, sabrás si eres una chica Casual, Clásica, Fashion, Hippie, Vanguardista o Romántica.\n\n¡Averígualo sólo rellenando la marca de la etiqueta de tus prendas!";
+
+"helpText10"="Estamos preparando nuevos diseños de DressApp que se adapten mejor a tu Look, próximamente podrás descargarte por sólo 0,79€ las diversas propuestas que nuestros diseñadores están preparando.\n\nAccede a la pantalla de apariencia para desbloquear los diseños que más te gusten.";
+
+
+
+"FacebookPostDescriptionKnowYourStyleTitle"=" Esto es lo que piensa #DressApp de mi estilo: ";
+"FacebookPostDescriptionKnowYourStyleResult1"="Soy casual- atlética.";
+"FacebookPostDescriptionKnowYourStyleResult2"="Soy clásica.";
+"FacebookPostDescriptionKnowYourStyleResult3"="Soy fashion - siempre a la moda.";
+"FacebookPostDescriptionKnowYourStyleResult4"="Soy hippie y natural.";
+"FacebookPostDescriptionKnowYourStyleResult5"="Soy romántica por excelencia.";
+"FacebookPostDescriptionKnowYourStyleResult6"="Soy vanguardista.";
+
+
+
+"FacebookPostDescriptionFashionVictimTitle"="¿Eres una fashion victim? Pregunta a #DressApp. ";
+"FacebookPostDescriptionFashionVictimYES"="¡Yo soy una fashion victim!";
+"FacebookPostDescriptionFashionVictimNO"="Yo no soy una fashion victim.";
+"FacebookPostDescriptionFashionVictimPRACTICAL"="Yo soy práctica.";
+
+
+//// V 1.2
+
+
+
+//"convertClosetFromDefaultUserSecondTimeMsg"="¿Quieres asociar todas las prendas y conjuntos, que tienes en este dispositivo, a tu cuenta?";
+
+
+
+"alertSuggestBackupClosetTitle"="Tu armario en la nube";
+"alertSuggestBackupClosetMsg"="Recuerda que al estar registrado en Dressapp, podrás guardar y recuperar tu armario cuando desees y consultarlo desde www.dressapp.es";
+
+
+"alertSuggestRestoreClosetTitle"="Descargar armario de la nube";
+"alertSuggestRestoreClosetMsg"="¿Quieres descargar tus prendas y conjuntos de la nube?";
+
+"Registrar"="Registrar";
+"RegisterErrorTitle"="Registro erroneo";
+"RegisterErrorMsg"="Ya existe un usuario registrado en DressApp con este email.";
+
+"restorationNotCompletedTitle"="Recuperación de armario";
+"restorationNotCompletedMsg"="El proceso de recuperación de tu armario se ha cancelado o ha habido un error de conexión. Puedes recuperar tu armario de nuevo más tarde.";
+
+"sexoFillingErrorTitle" ="Formulario no completado";
+"sexoFillingErrorMsg"="El campo sexo es obligatorio";
+
+"restorationNotCompletedInitAppTitle"="Error al recuperar el armario";
+"restorationNotCompletedInitAppMsg"="La última recuperación de tu armario de la nube no ha sido completada con éxito. Para recuperar tu armario, dirígete a tu perfil y pulsa el botón 'Recuperar mi armario'.";
+
+//////
+
+"guardarNotCompletedTitle"="Guardar armario";
+"guardarNotCompletedMsg"="El proceso de guardar tu armario se ha cancelado o ha habido un error de conexión. Puedes guardar tu armario de nuevo más tarde.";
+
+"ConfirmCancelTitle" = "Cancelar proceso";
+"ConfirmCancelGuardarMsg" = "¿Estas seguro de que deseas cancelar el guardado de tu armario?";
+"ConfirmCancelRecuperarMsg" = "¿Estas seguro de que deseas cancelar la recuperación de tu armario?";
+
+
+"Cancelando" = "Cancelando...";
+"Finalizando"="Procesando...";
+
+"confirmUserEmailBeforeLoginTitle"="Confirmación de email";
+"confirmUserEmailBeforeLoginMsg1"="Para iniciar la sesión en DressApp necesitamos confirmar tu email: '";
+"confirmUserEmailBeforeLoginMsg2"="' ¿Es correcto?";
+
+"sessionNotOpenTitle"="Sesión no iniciada";
+"sessionNotOpenMsg"="La sesión de DressApp no se ha iniciado. Puedes intentarlo más tarde dirigiéndote a la sección perfil.";
+
+
+"alertBackupNeededTitle"="Guardar armario";
+"alertBackupNeededMsg"="Tienes prendas o conjuntos que no están guardados en la nube. Recuerda que puedes guardar tu armario cuando desees.";
+
+"convertClosetFromDefaultUserSecondTimeTitle"="Sesión iniciada";
+"convertClosetFromDefaultUserSecondTimeMsg"="¿Quieres asociar a tu cuenta todas las prendas y conjuntos que tienes en este dispositivo? Si no las asocias se perderán.";
+
+
+"backupSuccessfullyTitle"="Armario guardado";
+"backupSuccessfullyMsg"="Tu armario ha sido guardado correctamente en la nube.";
+
+"restoreSuccessfullyTitle"="Armario recuperado";
+"restoreSuccessfullyMsg"="Tu armario ha sido recuperado correctamente de la nube.";
+
+
+
+
+///////////////////////  V 1.2.1
+
+//SECCION ORDENAR
+"sortViewTitle"="Ordenar";
+
+"sortTitle0" = "Marca";
+"sortTitle1" = "Categoria";
+"sortTitle2" = "Fecha";
+"sortTitle3" = "Precio";
+"sortTitle4" = "Temporada";
+"sortTitle5" = "Composición";
+
+"sortBtnTitleShow"= "Mostrar Etiquetas";
+"sortBtnTitleHide"= "Ocultar Etiquetas";
+
+
+//InPP
+
+"InAppST02InitialTitle"= "Estilo Modern";
+"InAppST02InitialDescription"= "Personaliza tu armario con DressApp Modern y dale ese toque alegre y divertido que tanto te gusta.";
+
+
+"InAppPriceTextPrefix"="¡Solo por";
+
+"purchaseDisabledTitle"="Compras integradas";
+"purchaseDisabledMsg"="Las compras integradas no están permitidas en tu dispositivo.";
+
+"restoreStyleButton"="Restaurar compra anterior";
+
+"restoreProductTitle"="Restaurar compra anterior";
+"restoreProductMsg"="Este usuario no tiene compras anteriores de este producto.";
+
+"unzippingStyle"="Ajustando estilo";
+ 
+"helpMenuItem11"="Ordenar prendas";
+
+"helpText11"="La opción ordenar te será de gran ayuda cuando quieras organizar tus prendas por marcas, categorías, fecha, precio, temporada o composición.\n\nTodo esto con tan solo un click. El cambio de armario de verano al de invierno nunca fue tan rápido y sencillo.\n\nEl botón ascendente y descendente te permite precisar el orden.";
+
+"noProfileTitle"="Connection not found";
+"noProfileMsg"="This DressApp version does not include server connection";
+
+

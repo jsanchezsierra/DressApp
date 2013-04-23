@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="10K549" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CalendarConjunto" representedClassName="CalendarConjunto" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecha" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="firstBackup" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="idCalendar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needsSynchronize" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="nota" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlPictureServer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="valoracion" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="conjunto" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Conjunto" inverseName="calendarConjunto" inverseEntity="Conjunto" syncable="YES"/>
+    </entity>
+    <entity name="CalendarHistoricoRemove" representedClassName="CalendarHistoricoRemove" syncable="YES">
+        <attribute name="idCalendar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idConjunto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Conjunto" representedClassName="Conjunto" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaLastUpdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="firstBackup" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="idConjunto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needsSynchronize" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="nota" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="urlPicture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlPictureServer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="calendarConjunto" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CalendarConjunto" inverseName="conjunto" inverseEntity="CalendarConjunto" syncable="YES"/>
+        <relationship name="categoria" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ConjuntoCategoria" inverseName="conjunto" inverseEntity="ConjuntoCategoria" syncable="YES"/>
+        <relationship name="prendas" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ConjuntoPrendas" inverseName="conjunto" inverseEntity="ConjuntoPrendas" syncable="YES"/>
+    </entity>
+    <entity name="ConjuntoCategoria" representedClassName="ConjuntoCategoria" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaLastUpdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="idCategoria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orden" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="conjunto" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Conjunto" inverseName="categoria" inverseEntity="Conjunto" syncable="YES"/>
+    </entity>
+    <entity name="ConjuntoHistoricoRemove" representedClassName="ConjuntoHistoricoRemove" syncable="YES">
+        <attribute name="idConjunto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ConjuntoPrendas" representedClassName="ConjuntoPrenda" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaLastUpdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="firstBackup" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="idConjuntoPrendas" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needsSynchronize" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="orden" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="scale" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="conjunto" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Conjunto" inverseName="prendas" inverseEntity="Conjunto" syncable="YES"/>
+        <relationship name="prenda" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Prenda" inverseName="conjuntoPrenda" inverseEntity="Prenda" syncable="YES"/>
+    </entity>
+    <entity name="Marcas" representedClassName="Marcas" syncable="YES">
+        <attribute name="idMarca" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Prenda" representedClassName="Prenda" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="composicion" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaCompra" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="firstBackup" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="idPrenda" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needsSynchronize" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="notas" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="precio" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="tag1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tag2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tag3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="talla1" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="talla2" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="talla3" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="urlPicture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlPictureServer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categoria" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PrendaCategoria" inverseName="prenda" inverseEntity="PrendaCategoria" syncable="YES"/>
+        <relationship name="conjuntoPrenda" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ConjuntoPrendas" inverseName="prenda" inverseEntity="ConjuntoPrendas" syncable="YES"/>
+        <relationship name="estado" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PrendaEstado" inverseName="prenda" inverseEntity="PrendaEstado" syncable="YES"/>
+        <relationship name="marca" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PrendaMarca" inverseName="prenda" inverseEntity="PrendaMarca" syncable="YES"/>
+        <relationship name="subcategoria" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PrendaSubCategoria" inverseName="prenda" inverseEntity="PrendaSubCategoria" syncable="YES"/>
+        <relationship name="temporada" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PrendaTemporada" inverseName="prenda" inverseEntity="PrendaTemporada" syncable="YES"/>
+        <relationship name="tienda" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PrendaTienda" inverseName="prenda" inverseEntity="PrendaTienda" syncable="YES"/>
+    </entity>
+    <entity name="PrendaCategoria" representedClassName="PrendaCategoria" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idCategoria" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="prenda" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Prenda" inverseName="categoria" inverseEntity="Prenda" syncable="YES"/>
+        <relationship name="subcategoria" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PrendaSubCategoria" inverseName="categoria" inverseEntity="PrendaSubCategoria" syncable="YES"/>
+    </entity>
+    <entity name="PrendaEstado" representedClassName="PrendaEstado" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idEstado" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="prenda" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Prenda" inverseName="estado" inverseEntity="Prenda" syncable="YES"/>
+    </entity>
+    <entity name="PrendaHistoricoRemove" representedClassName="PrendaHistoricoDelete" syncable="YES">
+        <attribute name="idPrenda" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PrendaMarca" representedClassName="PrendaMarca" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaLastUpdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="firstBackup" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="idMarca" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needsSynchronize" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="urlPicture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="prenda" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Prenda" inverseName="marca" inverseEntity="Prenda" syncable="YES"/>
+    </entity>
+    <entity name="PrendaSubCategoria" representedClassName="PrendaSubCategoria" syncable="YES">
+        <attribute name="categoriaID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idSubcategoria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orden" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="categoria" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PrendaCategoria" inverseName="subcategoria" inverseEntity="PrendaCategoria" syncable="YES"/>
+        <relationship name="prenda" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Prenda" inverseName="subcategoria" inverseEntity="Prenda" syncable="YES"/>
+    </entity>
+    <entity name="PrendaTemporada" representedClassName="PrendaTemporada" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idTemporada" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="prenda" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Prenda" inverseName="temporada" inverseEntity="Prenda" syncable="YES"/>
+    </entity>
+    <entity name="PrendaTienda" representedClassName="PrendaTienda" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idTienda" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlPicture" optional="YES" attributeType="String" valueTransformerName="ImageToDataTransformer" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="prenda" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Prenda" inverseName="tienda" inverseEntity="Prenda" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CalendarConjunto" positionX="-675" positionY="162" width="128" height="195"/>
+        <element name="CalendarHistoricoRemove" positionX="-351" positionY="288" width="128" height="90"/>
+        <element name="Conjunto" positionX="-468" positionY="153" width="128" height="180"/>
+        <element name="ConjuntoCategoria" positionX="-306" positionY="90" width="128" height="120"/>
+        <element name="ConjuntoHistoricoRemove" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="ConjuntoPrendas" positionX="-648" positionY="354" width="128" height="210"/>
+        <element name="Marcas" positionX="-668" positionY="630" width="128" height="75"/>
+        <element name="Prenda" positionX="-416" positionY="351" width="128" height="390"/>
+        <element name="PrendaCategoria" positionX="-117" positionY="261" width="128" height="105"/>
+        <element name="PrendaEstado" positionX="-99" positionY="585" width="128" height="90"/>
+        <element name="PrendaHistoricoRemove" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="PrendaMarca" positionX="-126" positionY="396" width="128" height="165"/>
+        <element name="PrendaSubCategoria" positionX="61" positionY="252" width="128" height="135"/>
+        <element name="PrendaTemporada" positionX="45" positionY="639" width="128" height="90"/>
+        <element name="PrendaTienda" positionX="-198" positionY="699" width="128" height="120"/>
+    </elements>
+</model>

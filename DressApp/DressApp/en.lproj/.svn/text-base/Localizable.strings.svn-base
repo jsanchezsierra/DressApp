@@ -1,0 +1,786 @@
+
+
+/////////////////////////"";
+////  BASE DE DATOS   ///"";
+/////////////////////////"";
+
+"locale"="en_EN";
+
+//CATEGORIAS"";
+"categoria0" = "None";
+"categoria1" ="Top";
+"categoria2" ="Bottom";
+"categoria3" ="Shoes";
+"categoria4" ="Accessories";
+"DressApp"="DressApp";
+
+//SUBCATEGORIAS"";
+"categoria1Count"="12";
+"categoria2Count"="7";
+"categoria3Count"="8";
+"categoria4Count"="16";
+
+"subCategoria1_0" ="None";
+"subCategoria1_1" ="Shirt";
+"subCategoria1_2" ="Jacket";
+"subCategoria1_3" ="T-shirt";
+"subCategoria1_4" ="Polo shirt";
+"subCategoria1_5" ="Blouse";
+"subCategoria1_6" ="Sweater";
+"subCategoria1_7" ="Dress";
+"subCategoria1_8" ="Coat";
+"subCategoria1_9" ="Jacket";
+"subCategoria1_10" ="Cardigan";
+"subCategoria1_11" ="Underwear";
+
+"subCategoria2_0" ="None";
+"subCategoria2_1" ="Trousers";
+"subCategoria2_2" ="Skirt";
+"subCategoria2_3" ="Jeans";
+"subCategoria2_4" ="Short trousers";
+"subCategoria2_5" ="Jeans";
+"subCategoria2_6" ="Underwear";
+
+"subCategoria3_0" ="None";
+"subCategoria3_1" ="Heels";
+"subCategoria3_2" ="Flat shoes";
+"subCategoria3_3" ="Boots";
+"subCategoria3_4" ="Sandals";
+"subCategoria3_5" ="Ballet shoes";
+"subCategoria3_6" ="Slippers";
+"subCategoria3_7" ="Trainers";
+
+"subCategoria4_0" ="None";
+"subCategoria4_1" ="Handbag";
+"subCategoria4_2" ="Bag";
+"subCategoria4_3" ="Slippers";
+"subCategoria4_4" ="Belt";
+"subCategoria4_5" ="Hat";
+"subCategoria4_6" ="Socks";
+"subCategoria4_7" ="Stocking";
+"subCategoria4_8" ="Cap";
+"subCategoria4_9" ="Sunglasses";
+"subCategoria4_10" ="Bracelet";
+"subCategoria4_11" ="Ring";
+"subCategoria4_12" ="Necklace";
+"subCategoria4_13" ="Watch";
+"subCategoria4_14" ="Earring";
+"subCategoria4_15" ="Tiara";
+
+//MARCAS"";
+"marca0"="Other";
+
+//COMPOSICION"";
+"composition1"="Other";
+"composition2"="Polyester";
+"composition3"="Acrylic";
+"composition4"="Cotton-Polyester";
+"composition5"="Cotton-Linen";
+"composition6"="Cotton-Acrylic";
+"composition7"="Wool";
+"composition8"="Silk";
+"composition9"="Cotton";
+"composition10"="Synthetic";
+"composition11"="Linen";
+
+//TIENDAS"";
+"TiendaNinguna"="none";
+"Tienda1"="El Corte Ingles";
+"Tienda2"="Cazados Perico";
+"Tienda3"="Boutique Lola";
+
+//TEMPORADA"";
+"primavera"="Spring";
+"verano"="Summer";
+"otono"="Autumn";
+"invierno"="Winter";
+"primaveraShort"="Spring";
+"veranoShort"="Summer";
+"otonoShort"="Autom";
+"inviernoShort"="Winter";
+"ninguna"="None";
+
+//Disponibilidad"";
+"disponible"="Available";
+"prestada"="On loan";
+"deseo"="Wish";
+"lavanderia"="Laundry";
+"ninguno"="None";
+
+//Categorias Conjuntos
+"ConjuntoCategoria_0"="Casual";
+"ConjuntoCategoria_1"="Work";
+"ConjuntoCategoria_2"="Party";
+"ConjuntoCategoria_3"="Sport";
+"ConjuntoCategoria_4"="Others";
+
+/////////////////////////"";
+//// MENU PRINCIPAL   ///"";
+/////////////////////////"";
+//MENU PRINCIPAL "";
+"Prendas" ="Garments";
+"Conjuntos" ="Outfits";
+"Calendario" ="Calendar";
+"Perfil" ="Profile";
+"MisMarcas" = "My Brands";
+"OK"="OK";
+
+//VISTA PRENDAS PRINCIPAL- VISTA AYUDA -HelpViewController"";
+"Ayuda"="Help";
+"EditPrendas"="Multiedition";
+"Volver"="Back";
+"helpMenuItem1"="Garment Section ";
+"helpMenuItem2"="Outfits Section";
+"helpMenuItem3"="Calendar";
+"helpMenuItem4"="Menu";
+"helpMenuItem5"="Multiedition";
+"helpMenuItem6"="Add clothes";
+
+"helpText1" = "Using the hanger you can access to the closet and see your garments sort by sections.\n\nAdd new garment using the mobile camera.\n\nYou can access to garment details (brand, season, size..etc) selecting the garment.";
+
+
+"helpText2"="Begin the experience of create new outfits.\n\nClick on the top right icon to select all the clothes & complements to made your outfit.\n\nNext screen you can:\n\n • Select & drag your clothes.\n\n • Change the size with the arrow.\n\n• Delete items with the cross button.";
+"helpText3"="¿Do you want remember the outfits that you have wearing in your dates? Now you can do it with the DressApp calendar!\n\nSelect a date and add the outfit.\n\nOn the other hand, you can add notes to remember special things.";
+"helpText4"="Click on the menu button to discover the DressApp sections: garments, outfits, calendar & profile.\n\nOtherwise, you can see all the outfits & garments that you have stored.";
+"helpText5"="With multiedition option you can select a set of items.\n\nThen confirm the selection with the OK button and set the attributes for all the selected items at the same time.\n\nMultiedition lets you remove selected items from your closet just doing a click on the item.";
+"helpText6"="Inside the closet there is a camera icon for each type of garment. Clicking on the icon you could add new garments using the camera and editing the attributes. ";
+
+
+
+//PREVIEW CAMERA"";
+"PhotoLibrary"="Images";
+"RepeatPicture"="Repeat";
+"UsePicture"="Use";
+"ResizePicture"="Move & Scale";
+
+
+
+/////////////////////////"";
+////// PRENDAS   ////////"";
+/////////////////////////"";
+//VISTA DETALLE PRENDA - PrendaDetailViewController"";
+"MultiplesPrendas"="Multi garments";
+"SI"="Yes";
+"NO"="No";
+"Prenda" ="Garment";
+"NoDisponible"="Unavailable";
+"btnCompartirTitle"="Share";
+"Temporada"="Season";
+"myPrenda"="My garment";
+"myEtiqueta"=" Label";
+"NoCategory"="Select category";
+"categoriaActionTitle"="Select category";
+"CategoryNotValid"="Different categories";
+"disponibilidadActionTitle"="Select  garment availability";
+"btnDisponibilidadDisponible"="Available";
+"btnDisponibilidadDeseo"="Wish";
+"btnDisponibilidadColada"="Laundry";
+"btnDisponibilidadPrestada"="On loan";
+"btnDisponibilidad"="Not assigned";
+"MoveItemToTrashTitle"="Confirm delete";
+"MoveItemToTrashMsg"="Are you sure do you want to delete the garment?";
+"MoveItemToTrashMsgWithWarning"="This garment is joined to an outfit. Are you sure do you want to delete it?";
+"MoveItemsToTrashMsg"="Are you sure do you want delete all these garments?";
+"MoveItemsToTrashMsgWithWarning"="Some of this garments are joined to an outfit. Are you sure do you want to delete them?";
+
+
+
+//VISTA DETALLE PRENDA- MI PRENDA"";
+"NotesNotas"="Notes";
+"NullNotas"="Does not match";
+"EstadoTitle"="State";
+
+
+
+//VISTA DETALLE PRENDA- LA ETIQUETA"";
+"EtiquetaMarca"="Brand";
+"EtiquetaTienda"="Shop";
+"EtiquetaTalla"="Size";
+"EtiquetaPrecio"="Price";
+"EtiquetaColor"="Color";
+"EtiquetaComposicion"="Composition";
+"NullMarca"="Brands do not match";
+"NullTalla"="Does not match";
+"NullPrecio"="---";
+"NullColor"="Does not match";
+"NullComposicion"="Does not match";
+
+
+//VISTA DETALLE PRENDA- VISTA TALLA -PrendaDetails Tallas"";
+"TallaTitleHeader"="Size";
+"btnResetTitle"="Reset";
+"helpTallaText"="Combine the values of the three columns until you get your size. (Ex: XL, 36, 80C...)";
+"SinTalla"= "No size";
+
+//VISTA DETALLE PRENDA- VISTA MARCAS -Fecha"";
+"FechaTitleHeader"="Date";
+
+//VISTA DETALLE PRENDA- VISTA MARCAS -PrendasCategorias y ConjuntosCategorias"";
+"CategoriasTitleHeader"="Categories";
+
+//VISTA DETALLE PRENDA- VISTA COMPOSICION -PrendasComposicionViewController"";
+"ComposicionTitleHeader"="Composition";
+
+//VISTA DETALLE PRENDA- VISTA MARCAS -PrendasMarcasVC"";
+"MarcasTitleHeader"="Brands";
+"MisMarcasTitleHeader"="My Brands";
+"addMarca"="Add Brands";
+"addMarcaHelp"="Add brands to 'My Brands'";
+
+//VISTA DETALLE PRENDA - VISTA TIENDAS -PrendaTiendasViewController"";
+"Tiendas"="Shops";
+
+//VISTA DETALLE PRENDA- VISTA PRECIO -PrendasPrecioViewController"";
+"PrecioTitleHeader"="Price";
+
+
+/////////////////////////"";
+////// CONJUNTOS  ///////"";
+/////////////////////////"";
+//CONJUNTOS - VISTA PRINCIPAL"""
+"Conjunto"="Outfit";
+"helpAddingConjunto"="Add new outfit";
+"addPrendas"="Add Garment";
+
+//CONJUNTOS - VISTA DE DETALLE""
+"actionViewConjuntoTitle"="How to share";
+"saveToAlbum"="Save in the album";
+"facebook"="Facebook";
+"twitter"="Twitter";
+"email"="E-mail";
+"cancelar"="Cancel";
+"MoveConjuntoToTrashMsg"="Are you sure you want to delete this outfit?";
+"MoveConjuntoToTrashEmptyMsg"="The outfit is empty, do you want to delete it?";
+"MoveConjuntoPrendaToTrashTitle"="Confirm delete"; 
+"MoveConjuntoPrendaToTrashMsg"="Are you sure do you want to remove this garment of this outfit?";
+"MoveEmptyConjuntoToTrashTitle"="Confirm delete";
+"MoveEmptyConjuntoToTrashMsg"="The outfit has no garments. Do you want to remove it?";
+"ConjuntoCategoria"="Category";
+"ConjuntoNotas"="Notes";
+"ConjuntoCompartir"="Share";
+
+
+//CONJUNTOS - VISTA DE DETALLE - VISTA NOTAS"";
+"NotasTitle"="Notes";
+"FechasTitle"="Dates used";
+
+
+/////////////////////////"";
+////// CALENDAR   ///////"";
+/////////////////////////"";
+//CALENDAR DETAILS VIEW"";
+"Hoy"="Today";
+"MoveCalendarItemToTrashTitle"="Confirm delete";
+"MoveCalendarItemToTrashMsg"="Are you sure you want to remove this outfit form the calendar?";
+"AddConjunto"="Add outfit";
+
+"CalendarEmptyConjuntosTitle"="You haven't create any outfit"; 
+"CalendarEmptyConjuntosMsg"="You need to create an outfit before adding a calendar entry.";
+"introNote"="Introduce a note";
+
+/////////////////////////"";
+//////   PERFIL   ///////"";
+/////////////////////////"";
+"btnLoginTitle"="Enter";
+"btnRegistrarTitle"="Register";
+"btnRegisterConfimation"="Enter";
+
+"Name"="Name";
+"Email"="Email";
+"IntroEmail"="Introduce your Email";
+"Password"="Password";
+
+"IntroduceEmail"="Introduce your Email";
+"IntroducePassword"="Introduce your password";
+
+"wrongLoginDataTitle"="Error Login";
+"wrongLoginDataMsg"="Please fill in all the fields";
+"Registrate"="Register";
+"Conectate"="Connect";
+"Entra"="Enter";
+"RegistrateCon"="Register with";
+"EntraConFacebook"="Enter with Facebook";
+"ConectateConFacebook"="Connect with Facebook";
+"btnRegisterBenefits"="Register benefits";
+
+"LoginErrorTitle"="Login error";
+"LoginErrorMsg"="Not valid email or password";
+
+"LoginFacebookErrorTitle"="Facebook connect";
+"LoginFacebookErrorMsg"="There was an error with Facebook connection, try it again later.";
+
+"passwordHasWhiteSpacesTitle"="Wrong password";
+"passwordHasWhiteSpacesMsg"="The minimum password length is 4 characters and it can not contain white spaces.";
+
+
+//GENERAL-NAVEGACION"";
+"atras"="Back";
+"btnOK"="OK";
+"btnCancel"="Cancel";
+"btnCancelShort"="Cancel";
+
+
+
+//////   REGISTRATION   ///////
+
+"wrongRegisterDataTitle" = "Registration Error";
+"wrongRegisterDataMsg" = "Introduce your email to complete the registration.";
+"wrongRegisterEmailTitle"="Wrong email";
+"wrongRegisterEmailMsg"="Please introduce a valid email.";
+
+"RegistrationOKTitle" = "Welcome to DressApp!";
+"RegistrationOKMsg" = "Your registration has been processed successfully. You will receive an email to activate your DressApp account";
+"wrongRegisterEmailExistTitle" = "DresApp registration";
+"wrongRegisterEmailExistMsg" = "There was a problem registering in DressApp.";
+"FacebookConnectAlreadyConnectedTitle"="Facebook Registration";
+"FacebookConnectAlreadyConnectedMsg"="The DressApp registration using your Facebook account has been done previously.";
+
+
+"RegistroConfirmationTitle"="Thanks for joining DressApp!";
+"RegistroBenefitsTitle"="Registration benefits";
+
+"RegistroConfirmationTextWebView" = " <p style=\"font-size:small;\">Your account is connected to DressApp!</p>  <p style=\"font-size:small;\">This will give you some advantages:</p>  <p style=\"font-size:small;\">- Access to www.dressapp.es and visualize all your garments, outfits,...<BR>-Restore your closet in another iPhone's<BR>-And many other advantages that will be added soon</p> <p style=\"font-size:small;\">Enjoy DressApp!</p>";
+
+"RegistroBenefitsTextWebView" = "<p>Users can start using our free app without registering. Anyway, if you continue with the register you will have the possibility to upload your closet to the cloud, allowing you to check it from any device, anywhere. In addition, you will know about your style, tendencies and recommended outfits for your own Garments.</p> <p>Another important benefit is security: if you lose your device, your closet is kept safely at the cloud and you can restore it easily at any time from anywhere.</p>";
+
+
+"RestorePassWord"="Password recover";
+"RestorePassWordTitle"="Password recover";
+"RestorePassWordMsg1"="An email with your password has been sent to";
+"RestorePassWordMsg2"="";
+"RestorePassWordErrorMsg"="There was an error. Your password has not been sent to the specified email address";
+
+/// FACEBOOK CONNECT  ////
+
+"FacebookPostName"="I am using DressApp for iPhone ";
+"FacebookPostCaption"="DressApp";
+"FacebookPostDescription"="Try DressApp for iPhone and discover a new way to manage your closet.";
+
+"FacebookPostDescriptionPrenda"=" Look this nice garment that I have in my #DressApp closet.";
+"FacebookPostDescriptionConjunto"=" Look this nice outfit that I have in my #DressApp closet.";
+
+
+
+"FacebookConnectPostImagePrendaOKTittle"="Share on Facebook";
+"FacebookConnectPostImagePrendaOKMsg"="The image of your garment has been shared in your Facebook wall";
+
+"FacebookConnectPostImagePrendaFailedTittle"="Share on Facebook";
+"FacebookConnectPostImagePrendaFailedMsg"="It has not been possible to share your outfit in your Facebook wall";
+
+
+"FacebookConnectPostImageConjuntoOKTittle"="Share on Facebook";
+"FacebookConnectPostImageConjuntoOKMsg"="The image of your outfit has been shared in your Facebook wall";
+
+"FacebookConnectPostImageConjuntoFailedTittle"="Share on Facebook";
+"FacebookConnectPostImageConjuntoFailedMsg"="It has not been possible to share your outfit in your Facebook wall";
+
+
+"FacebookConnectPostStyleOKTittle"="Share on Facebook";
+"FacebookConnectPostStyleOKMsg"="Your style has been shared on your Facebook wall";
+
+"FacebookConnectPostStyleFailedTittle"="Share on Facebook";
+"FacebookConnectPostStyleFailedMsg"="It has not been possible to share your style in your Facebook wall";
+
+
+"FacebookConnectPostFashionVictimOKTittle"="Share on Facebook";
+"FacebookConnectPostFashionVictimOKMsg"="Your fashion victim result has been shared in your Facebook wall";
+
+"FacebookConnectPostFashionVictimFailedTittle"="Share on Facebook";
+"FacebookConnectPostFashionVictimFailedMsg"="It has not been possible to share your fashion victim result on your Facebook wall";
+
+
+
+
+"FacebookConnectPostOKTittle"="Share on Facebook";
+"FacebookConnectPostOKMsg"="Your post has been shared on your Facebook wall ";
+
+"emailNotExistTitle"="You can not send emails";
+"emailNotExistMsg"="You need to have an email account associated with this device to send emails.";
+
+"SendPrendaToEmailOKTittle"="DressApp Email";
+"SendPrendaToEmailOKMsg"="The image with the garment has been sent.";
+
+"SavePrendaToLibraryOKTittle"="Store in portfolio";
+"SavePrendaToLibraryOKMsg"=" The image with the garment has been stored in the portfolio";
+
+"emailBodyPrenda1"="<p>Hello,</p> <p> Look this nice piece of cloth I have in my #DressApp closet. </p> <p> You can download DressApp and share with me your outfits & looks.</p> ";
+"emailBodyPrenda2"=" Checkout DressApp at the Apple Store";
+"emailBodyPrenda3"=" Checkout DressApp at Google Play";
+
+"emailBodyConjunto1"="<p>Hello,</p> ";
+"emailBodyConjunto2"="Look this nice outfit that I have in my #DressApp closet.";
+"emailBodyConjunto3a"="Conjunto de:";
+"emailBodyConjunto3b"="Conjunto de:";
+"emailBodyConjunto4"="<p>You can download DressApp and share with me your outfits & looks.</p> ";
+"emailBodyConjunto5"=" Checkout DressApp at the Apple Store";
+"emailBodyConjunto6"=" Checkout DressApp at Google Play";
+
+
+"TwitterMsg"="¡Discover a new way to organize your closet! http://bit.ly/yUWHhn Login in www.dressApp.es";
+"TwitterMsgPrenda"=" Look this nice garment that I have in my #DressApp closet.";
+"TwitterMsgConjunto"="Look this nice outfit that I have in my #DressApp closet.";
+
+//BACKUPS
+
+"BackupPrendaLabel"="Store my closet";
+"RestorePrendaLabel"="Restore my closet";
+
+"BackupPrenda"="Saving clothes.";
+"BackupPrendaTerminado"="All clothes has been saved ";
+"RemovingPrendas"="Deleting clothes.";
+
+"BackupConjunto"="Saving outfit";
+"BackupConjuntoTerminado"="All outfits has been saved ";
+"RemovingConjuntos"="Deleting outfits.";
+
+"RemovingCalendar"="Removing calendar note";
+
+"BackupNotNeeded"="Closet saved";
+"RestoreNotNeeded"="Closet restored";
+"BackupEnded"="Backup finalized";
+
+"Guardando"="Updating";
+"de"="of";
+
+"Conectando"="Connecting...";
+"Recuperando"="Restoring";
+
+"SaveProfile"="Save profile";
+
+
+"CloseSession"="Close session";
+"Cancelar"="Cancel";
+
+"profileModifiedOKTitle"="";
+"profileModifiedOKMsg"="Profile saved successfully";
+
+"hombre"="M";
+"mujer"="W";
+
+"NombrePlaceholder"="Name";
+"ApellidosPlaceholder"="Surname";
+"EmailPlaceholder"="Email";
+"FechaPlaceholder"="BirthDate";
+"PostalCode"="Postal Code";
+
+"BackUpErrorTitle"="Closet backup error";
+"BackUpErrorMsg"="There was an error during the closet backup.";
+
+"RestoreErrorTitle"="Closet restore error";
+"RestoreErrorMsg"="There was an error during the closet restore.";
+
+"ConnectionErrorTitle"="Connection error";
+"ConnectionErrorMsg"="There was a connection error while trying to access the cloud. Please try it again later.";
+
+"fillingFormError" = "Please fill in all the fields";
+"birthDateFillingFormError" = "The minimum registration age is 14 years old";
+
+"restoreStartTitle"="Restore my Closet";
+"restoreStartMsg"="Do you want to restore your closet from the cloud? ";
+
+"backupStartTitle"="Store my Closet";
+"backupStartTitleForced"="Welcome to DressApp";
+//"backupStartMsg"="Do you want to store your closet in the cloud? ";
+"backupStartMsg"= "We are going to replace the stored closet in the cloud with your current device content. Do you want to continue?";
+
+
+"backupStartMsgForced"="You new garments and outfits will be stored in the cloud.";
+
+//"backupStartMsgForced"="You have done changes on your closet. Press OK to update the changes on the server.";
+"backupStartMsgNotNeeded"="All your garments and outfits are already stored in the cloud.";
+
+
+"logoffTitle"="Close session";
+"logoffMsg"="Remember that you will need to connect with your email and password to enter again to your closet.";
+
+"noInternetTitle"="There is not Internet connection";
+"noInternetMsg"="Enable the Internet connection. Try it again.";
+
+
+"3GConnectionTitle"="Warning";
+"3GConnectionMsg"="Your closet size exceeds 20Mb. We recommend you connect a wifi network to store or recover your closet.";
+
+"convertClosetFromDefaultUserTitle"="Welcome to DressApp";
+"convertClosetFromDefaultUserMsg1"="If you go on, all the garments and outfits that you have on your device will be associated to ";
+"convertClosetFromDefaultUserMsg2"=" ¿Are you sure that you want to continue?";
+
+
+//Loading 
+"loading"="loading";
+
+
+
+"convertDataBaseTitle"="Repairing DataBase";
+"convertDataBaseMsg"="¿Do you want to repair the database in order to recover all the garments and outfits stored on your device?";
+
+
+"convertDataBaseFinishedTitle"="";
+"convertDataBaseFinishedMsg"="Database repair finished";
+
+
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+"logoffConfirmationTitle"="Close session";
+"logoffConfirmationMsg"="Are you sure you want to close your session?";
+
+"apariencia"="¡Dress your App!";
+"SelectStyle"="¡Dress your App!";
+
+"MiArmario"="My closet";
+"MiPerfil"="My profile";
+"Ajustes"="Settings";
+
+"estadisticas"="Explore your closet";
+"tuEstilo"="Know about your style";
+"tuEstiloShort"="Know your style";
+"ConoceTuEstilo"="Which is my style?";
+"ConoceFashionVictim"="Are you a Fashion Victim?";
+
+"minimunMarcasForCalculatingStyleTitle"="We do not have enought information";
+"minimunMarcasForCalculatingStyleMsg1"="We can’t calculate your style because you do not have full filled the labels of your clothes in DressApp. You only have ";
+"minimunMarcasForCalculatingStyleMsg2"="of tags full filled.";
+"minimunMarcasForCalculatingStyleMsg3"="Full fill it and we’ll tell your style! It just takes to you 5 seconds! Then you could know if you are: Casual, Classic, Fashion, Hippie, Avant-garde or Romantic.";
+
+"estiloTitulo01"="Casual - Athletic girl";
+"estiloMsgIni01"="The important thing for you is to feel comfortable with your clothes, but it does not take you away from fashion. Your clothes highlight your athletic figure and gives you a sexy character. You show a unique style and self confident. Your makeup is simple and resistant to do not interfere in your lifestyle.The casual look consists to keep it simple with a careful mess.";
+"estiloMsgEnd01"="Casual celebrities? Rachel Bilson, Kristen Stewart, Sandra Bullock and Maria Sharapova.";
+
+
+"estiloTitulo02"="The classic style";
+"estiloMsgIni02"="Elegance and sophistication are your premises. You have a clean style, sober, refined and neat. The glamour is part of your identity but trends doesn't  affect your good taste, you have your own style which remains unchanged over time. You adapt your outfits to circumstances to wear always the appropriate clothe and accessories. You avoid the extremes and your accessories are inconspicuous.";
+"estiloMsgEnd02"="Some classic women are: Jennifer Aniston, Katherine Heigl, Gwyneth Paltrow and Grace Kelly";
+
+"estiloTitulo03"="Fashion - Always in fashion";
+"estiloMsgIni03"="You follow the trends and keep up to date: the fashion is your life. You like to keep up with new styles. You are not afraid about changes and always your are the first of your friends to try a new look. You're always perfect with a look that is a sample of current trends.";
+"estiloMsgEnd03"="Some fashion women are: Sarah Jessica Parker, Madonna, Victoria Beckham";
+
+"estiloTitulo04"="Hippie and natural";
+"estiloMsgIni04"="For you it is important that your clothes reflect your principles and way of life. The clothes aren’t your most important concern. You like to wear natural and you establish a relationship with your clothes, for that reason is not easy for you throw away your old clothes and when you do it you always give it to NGO.";
+"estiloMsgEnd04"="Some famous natural looks: Meg Ryan and Helen Hunt";
+
+"estiloTitulo05"="Romantic per excellence";
+"estiloMsgIni05"="You love the vintage style and designs, for that reason you love DressApp. The clothes transmit this spirit, that's why you love secondhand clothes. Your style is very feminine, sweet and sensual. When you go to shopping you follow your heart instead of your head. Your image looks fresh and romantic. You are very loyal to your style and your trademark.";
+"estiloMsgEnd05"="Celebrities which you identify: Winona Ryder and Diane Keaton.";
+
+"estiloTitulo06"="Avant-garde";
+"estiloMsgIni06"="Your clothes are different. Your prefer the underground designers & the hidden shops instead the best known brands that everybody is wearing. With your look you are expressing your disagreement with the massive and conventional trends. You like people who know you're different and creative.";
+"estiloMsgEnd06"="Women in the vanguard: Gwen Stefani and L'il Kim.";
+
+
+"emailEstiloSubject"="Look what DressApp thinks about my style. ";
+"emailEstiloParagraph1"="<p>Hello,</p> <p>This is what #DressApp thinks about my style: </p> ";
+"SendEstiloEmailOKTittle"="DressApp  Email";
+"SendEstiloEmailOKMsg"="The email with your style has been sent correctly. ";
+
+
+"fashionVictimYESTitle" = "Total Fashion";
+"fashionVictimYES" = "You are a fashionist. You like spend your money in the last trends: you are a compulsive shopper. You love Sex & the City and traveling to New York to walk around 5th avenue. Your best day: shop, shop and … shop! ";
+
+"fashionVictimPRACTICALTitle"="You are practical";
+"fashionVictimPRACTICAL"="You like fashion but before buy anything you look all shops because you do not like throw the money. Your budget is quite limited but you think there's nothing wrong with being impulsive from time to time in a while.";
+
+"fashionVictimNOTitle"="You are not a Fashion Victim";
+"fashionVictimNO"="The fashion for your is just a word in a silly girl magazine. You are happy with yourself and do not care about what people say about you. You like people for their brains not for their clothes. Just think about shopping gives you a headache. Just one last thing you love the National Geographic documentaries.";
+
+"fashionVictimNODATATitle"="There are not enough information.";
+"fashionVictimNODATA"="We cannot calculate you style because there are not enough labels full filled in your DressApp clothe labels. You should full fill the label information (price, brand…) and then we could calculate if you are a fashion victim.";
+
+"emailFashionSubject"="Are you a fashion victim? Ask to DressApp";
+"emailFashionParagraph1"="<p>Hello,</p> <p> Are you a fashion victim? This is what #DressApp thinks about you: </p> ";
+"SendFashionEmailOKTittle"="DressApp  Email";
+"SendFashionEmailOKMsg"="The email with your style has been sent correctly.";
+
+
+"emailBlockedTitle"="Access denied";
+"emailBlockedMsg1"="The account linked to the email";
+"emailBlockedMsg2"="is block. You can send an email to contacto@dressapp.es to unblock it.";
+
+"twitterYourStyleTitle1"="This is what DressApp think about my style: ";
+"twitterYourStyleTitle2"=". http://bit.ly/yUWHhn";
+
+"twitterYourStyle1"="I am casual- athletic girl";
+"twitterYourStyle2"="I am classic";
+"twitterYourStyle3"="I am fashion";
+"twitterYourStyle4"="I am hippie y natural";
+"twitterYourStyle5"="I am romantic par excellence";
+"twitterYourStyle6"="I am avant-garde";
+
+"twitterFashionVictimTitle1"="Are you a Fashion Victim? Ask #DressApp. ";
+"twitterFashionVictimTitle2"=" http://bit.ly/yUWHhn";
+
+"twitterFashionVictimResult1"="I am a fashion victim!";
+"twitterFashionVictimResult2"="I am not a fashion victim.";
+"twitterFashionVictimResult3"="I am practical.";
+
+
+"Vintage"="Vintage";
+"Elegant"="Elegant";
+"Modern"="Modern";
+"Urban"="Urban";
+
+"styleTitle1"="Vintage Style";
+"styleContent1"="Very soon you could customize you DressApp with a vintage Style.";
+"stylePrice1"=" Just for 0.79€!";
+
+
+"styleTitle2"="Classic Style";
+"styleContent2"="Very soon you could customize you DressApp with a classic Style.";
+"stylePrice2"=" Just for 0.79€!";
+
+"styleTitle3"="Modern Style";
+"styleContent3"="Very soon you could customize you DressApp with a modern Style.";
+"stylePrice3"=" Just for 0.79€!";
+
+
+"styleTitle4"="Urban Style";
+"styleContent4"="Very soon you could customize you DressApp with a urban Style.";
+"stylePrice4"=" Just for 0.79€!";
+
+"btnDownload"="Download";
+"btnCancel"="Cancel";
+
+"warningDownloadingStyleWith3GTitle"="Internet connection";
+"warningDownloadingStyleWith3GMsg"="You are connected to internet using your 3G. We recommend you use a Wifi connection to download your style. Do you want continue using the 3G connection?";
+
+"purchaseDisabledTitle"="Purchase disabled";
+"purchaseDisabledMsg"="It is not possible continue with the purchase because your device does not allow purchase. You could change the configuration in the adjustment configuration section of your device.";
+
+"invalidProductTitle" = "Style not found";
+"invalidProductMsg" = "The selected style has not been found in the Apple Store, check it later";
+
+
+"helpMenuItem7"="My profile";
+"helpMenuItem8"="My brands";
+"helpMenuItem9"="Know your style";
+"helpMenuItem10"="Dress your App";
+
+"helpText7"="If you have not linked your DressApp to an email account, just click on this icon and you will link your account just with a simple step.\n\nIntroduce your email and password and you will access to new features:\n\n - Visualize all your closet using the web access www.dressapp.es\n\n - Download all your closet in other devices iPhone, iPod and iPad.\n\n - Another features are coming.";
+
+"helpText8"="With this section you can select you favorite brands.\n\nAdd new brands easily. Just click into the top right button to access all brands list and select your preferred brands. Add as many brands as you want.";
+
+"helpText9"="Now your clothe talks about you. DressApp analyze your closet and certain your style. Just click in one of the options and we calculate you style using all the information stored in your labels.\n\nWe use the information about brands and prices to determinate your style: Casual, Classical, Fashion, Hippie….\n\nYou only need to full fill the labels of your clothes!";
+
+"helpText10"="We are preparing new DressApp designs which you could buy just for 0,79€.\n\nAccess to the template screen to unblock the designs which fits with your style.";
+
+
+"FacebookPostDescriptionKnowYourStyleTitle"=" This is what #DressApp thinks about my style: ";
+"FacebookPostDescriptionKnowYourStyleResult1"="I am casual-athletic girl.";
+"FacebookPostDescriptionKnowYourStyleResult2"="I am classic.";
+"FacebookPostDescriptionKnowYourStyleResult3"="I am fashion.";
+"FacebookPostDescriptionKnowYourStyleResult4"="I am hippie and  natural.";
+"FacebookPostDescriptionKnowYourStyleResult5"="I am romantic par excellence.";
+"FacebookPostDescriptionKnowYourStyleResult6"="I am avant-garde.";
+
+
+"FacebookPostDescriptionFashionVictimTitle"="Are you a Fashion Victim? Ask #DressApp. ";
+"FacebookPostDescriptionFashionVictimYES"="¡I am a fashion victim!";
+"FacebookPostDescriptionFashionVictimNO"="I am not a fashion victim.";
+"FacebookPostDescriptionFashionVictimPRACTICAL"="I am practical.";
+
+
+
+
+
+//// V 1.2
+
+
+
+"alertSuggestBackupClosetTitle"="Your closet in the cloud";
+"alertSuggestBackupClosetMsg"="If you are a register DressApp user, could save and restore all your closet when you want and access to all your outfits from the web:  www.dressapp.es";
+
+
+"alertSuggestRestoreClosetTitle"="Downloading your closet";
+"alertSuggestRestoreClosetMsg"="Do you want download your garments and outfits from the cloud?";
+
+"Registrar"="Register";
+"RegisterErrorTitle"="Error in the registration";
+"RegisterErrorMsg"="Already there is a DressApp user with this email";
+
+"restorationNotCompletedTitle"="Error during closet restore process ";
+"restorationNotCompletedMsg"="The restore process has been interrupted. Try again.";
+
+"sexoFillingErrorTitle" ="Form not completed";
+"sexoFillingErrorMsg"="The sex field is mandatory";
+
+"restorationNotCompletedInitAppTitle"=" Error during closet restore process ";
+"restorationNotCompletedInitAppMsg"="The last restore process was not successfully completed. To restore your closet go to Profile and click on the restore my closet.";
+
+//////
+
+"guardarNotCompletedTitle"="Storing closet";
+"guardarNotCompletedMsg"="The storing process has been cancelled or the conection with the cloud has been lost. You can try to store the closet later";
+
+"ConfirmCancelTitle" = "Cancel process";
+"ConfirmCancelGuardarMsg" = "Are you sure that you want to cancel the storage of your closet?";
+"ConfirmCancelRecuperarMsg" = "Are you sure that you want to cancel the restoration of your closet?";
+
+
+"Cancelando" = "Canceling...";
+"Finalizando"="Processing...";
+
+
+"confirmUserEmailBeforeLoginTitle"="Email confirmation";
+"confirmUserEmailBeforeLoginMsg1"="You need to confirm your email before starting the session: '";
+"confirmUserEmailBeforeLoginMsg2"="'Is this correct?";
+
+"sessionNotOpenTitle"="DressApp session";
+"sessionNotOpenMsg"="The DressApp session did not start. You can try it later from the profile menu.";
+
+
+"alertBackupNeededTitle"="Store my Closet";
+"alertBackupNeededMsg"="Some of your garments and outfits are not stored in the cloud. Don't forget that you can stored them whenever you want. ";
+
+
+"convertClosetFromDefaultUserSecondTimeTitle"="Session started";
+"convertClosetFromDefaultUserSecondTimeMsg"="Do you want to link to your account all the garments and outfits that you have on the device? If not, they will be lost.";
+
+"backupSuccessfullyTitle"="Stored successfully ";
+"backupSuccessfullyMsg"="Your closet was stored successfully in the cloud.";
+
+"restoreSuccessfullyTitle"="Restore successfully";
+"restoreSuccessfullyMsg"="The restoration of your closed was completed successfully";
+
+
+
+///////////////////////  V 1.2.1
+
+//SECCION ORDENAR
+"sortViewTitle"="Sort";
+
+"sortTitle0" = "Brand";
+"sortTitle1" = "Category";
+"sortTitle2" = "Date";
+"sortTitle3" = "Price";
+"sortTitle4" = "Season";
+"sortTitle5" = "Composition";
+
+"sortBtnTitleShow"= "Show notes";
+"sortBtnTitleHide"= "Hide notes";
+
+
+//InPP
+
+"InAppST02InitialTitle"= "Modern Style";
+"InAppST02InitialDescription"= "Customize your wardrobe with DressApp Modern and give it your own quirky and amusing style.
+";
+
+"InAppPriceTextPrefix"="Only";
+
+"purchaseDisabledTitle"="InApp Purchase";
+"purchaseDisabledMsg"="InApp purchases aren't allowed in your device.";
+
+"restoreStyleButton"="Restore a previous purchase";
+
+"restoreProductTitle"="Restore a previous purchase";
+"restoreProductMsg"="This user has not purchased this product before.";
+
+"unzippingStyle"="Adjusting style";
+
+"helpMenuItem11"="Sort garments";
+
+"helpText11"="The sort option will be a great help to organize your garments by brand, category, date, price, season or composition.\n\nAll of this just with one click. It was never so fast and easy to change from summer to winter closet.\n\nAscending and descending button will allow you to indicate the sort order.";
+
+
