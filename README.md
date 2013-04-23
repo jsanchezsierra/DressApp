@@ -19,24 +19,15 @@ This source code is used in DressApp ( My Pocket Closet), which is available on 
 
 ## Technical notes
 
-* The App uses the Core Data Framework for storing and organizing the closet content (images and metadata)
-* Check how to add an overlay view on your camera  (UIImagePickerController Class,cameraOverlayView method) and how to resize your pics. 
-* The project includes the HorizontalTableView Class.  Thanks to Martin Volerich.   https://github.com/TheVole/HorizontalTable
+* The App uses the *Core Data Framework* for storing and organizing the closet content (images and metadata)
+* Check how to add an overlay view on your camera  (*UIImagePickerController Class,cameraOverlayView method*) and how to resize your pics. 
+* The project includes the *HorizontalTableView Class*.  Thanks to Martin Volerich.   https://github.com/TheVole/HorizontalTable
 * Learn how to use gestures to control the size and position of your garments in the outfit. No edit buttons needed!
-* Check the StyleDressapp class. You can change your App style just with one tap ( Go to  Dress you App!  section and choose a new style)
-* Custom calendar with gesture control for editing. Check CalendarViewController/CalendarMonthViewController classes. 
+* Check the *StyleDressapp Class*. You can change your App style just with one tap ( Go to  Dress you App!  section and choose a new style)
+* Custom calendar with gesture control for editing. Check *CalendarViewController/CalendarMonthViewController classes*. 
 * The App is localized in Spanish and English
 * and many other interesting stuff.
 
-## Screenshot
-
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot1.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot2.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot3.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot4.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot5.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot6.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot7.jpg)
 
 ## Release Notes
 
@@ -68,3 +59,15 @@ LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE A
 EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
 AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
 OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+## Screenshots
+
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot1.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot2.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot3.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot4.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot5.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot6.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot7.jpg)
+
