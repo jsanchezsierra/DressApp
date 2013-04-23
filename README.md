@@ -64,7 +64,7 @@ OR OTHER DEALINGS IN THE SOFTWARE.
 ## Screenshots
 
 ![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow1.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow2.jpg)
+! [Screenshot] ( https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow2.jpg)
 ![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow3.jpg)
 ![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow4.jpg)
 ![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow5.jpg)
