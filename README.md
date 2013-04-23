@@ -32,7 +32,7 @@ This source code is used in DressApp ( My Pocket Closet), which is available on 
 
 ![Screenshot](https://raw.github.com/osrufung/irregularverbs/master/screenshot1.png)
 
-![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot1.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot1.jpg)
 ![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot2.jpg)
 ![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot3.jpg)
 ![Screenshot](https://github.com/jsanchezsierra/DressApp/blob/master/screenshots/screenshot4.jpg)
