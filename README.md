@@ -1,4 +1,4 @@
-DressApp (Your pocket closet)
+DressApp (My pocket closet)
 =============================
 
 
@@ -13,7 +13,7 @@ A very Simple App for organizing your closet. Check your closet at anytime, anyw
 
 ## Source Code
 
-This source code is used in DressApp ( My Pocket Closet), which is available on the AppStore.
+This source code is used in DressApp (My Pocket Closet), which is available on the AppStore.
 
 **iTunes App Link:**   https://itunes.apple.com/en/app/mi-armario-bolsillo-dressapp/id500213071?mt=8
 
@@ -63,11 +63,11 @@ OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Screenshots
 
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot1.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot2.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot3.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot4.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot5.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot6.jpg)
-![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshot7.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow1.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow2.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow3.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow4.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow5.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow6.jpg)
+![Screenshot](https://raw.github.com/jsanchezsierra/DressApp/master/screenshots/screenshotLow7.jpg)
 
