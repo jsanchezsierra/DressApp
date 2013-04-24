@@ -26,7 +26,8 @@ This source code is used in DressApp (My Pocket Closet), which is available on t
 * Check the *StyleDressapp Class*. You can change your App style just with one tap ( Go to  Dress you App!  section and choose a new style)
 * Custom calendar with gesture control for editing. Check *CalendarViewController/CalendarMonthViewController classes*. 
 * The App is localized in Spanish and English
-* and many other interesting stuff.
+* Ir supports iOS 4.3 SDK
+* * ... and many other interesting stuff!
 
 
 ## Release Notes
