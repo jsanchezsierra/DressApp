@@ -45,7 +45,7 @@ This source code is used by Slash Mobility in DressApp (My Pocket Closet), which
 
 Copyright (c) 2011-2012 Javier Sanchez Sierra. All rights reserved.
 
-DressApp is free and open source software, distributed under the GNU General Public License version 2 or later. 
+DressApp is free and open source software, distributed under the GNU General Public License version 3 or later. 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software", image files, png,etc...), to deal in the Software without restriction, including without
 limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
