@@ -19,15 +19,15 @@ This source code is used by Slash Mobility in DressApp (My Pocket Closet), which
 
 ## Technical notes
 
-* The App uses the *Core Data Framework* for storing and organizing the closet content (images and metadata)
-* Check how to add an overlay view on your camera  (*UIImagePickerController Class,cameraOverlayView method*) and how to resize your pics. 
-* The project includes the *HorizontalTableView Class*.  Thanks to Martin Volerich.   https://github.com/TheVole/HorizontalTable
+* The App uses the **Core Data Framework** for storing and organizing the closet content (images and metadata)
+* Check how to add an overlay view on your camera  (**UIImagePickerController Class,cameraOverlayView method**) and how to resize your pics. 
+* The project includes the **HorizontalTableView Class**.  Thanks to Martin Volerich.   https://github.com/TheVole/HorizontalTable
 * Learn how to use gestures to control the size and position of your garments in the outfit. No edit buttons needed!
-* Check the *StyleDressapp Class*. You can change your App style just with one tap ( Go to  Dress you App!  section and choose a new style)
+* Check the **StyleDressapp Class**. You can change your App style just with one tap ( Go to  Dress you App!  section and choose a new style)
 * Custom calendar with gesture control for editing. Check *CalendarViewController/CalendarMonthViewController classes*. 
 * The App is localized in Spanish and English
 * It supports iOS 4.3 SDK
-* * ... and many other interesting stuff!
+* ... and more interesting stuff!
 
 
 ## Release Notes
